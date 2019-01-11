@@ -1,12 +1,12 @@
 agent any
-stages{
+stages {
 stage("Compile"){
-steps{ 
+steps { 
 sh "./gridlew compileJava"
 }
 }
 stage("Unit test"){
-steps{
+steps {
 sh "./gridlew test"
 }
 }
