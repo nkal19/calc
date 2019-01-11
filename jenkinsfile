@@ -1,0 +1,14 @@
+agent any
+stages{
+stage("Compile"){
+steps{ 
+sh "./gridlew compileJava"
+}
+}
+stage("Unit test"){
+steps{
+sh "./gridlew test"
+}
+}
+}
+
