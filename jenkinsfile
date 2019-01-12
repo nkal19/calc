@@ -18,7 +18,12 @@ publishHTML (target: [
       reportDir: 'build/reports/jacoco/test/html/index.html',
       reportFiles: 'index.html',
       reportName: 'JaCoCo Report'
-[)
+])
+}
+}
+stage("Static Code Analysis"){
+ steps {
+  sh "./gradlew checkstyleMain"
 }
 }
 }
