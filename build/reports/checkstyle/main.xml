@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/Users/nkalaiya/workspace/dock_test/repo/calc/src/main/java/com/example/calc/CalcApplication.java">
+</file>
+<file name="/Users/nkalaiya/workspace/dock_test/repo/calc/src/main/java/com/example/calc/Calculator.java">
+</file>
+<file name="/Users/nkalaiya/workspace/dock_test/repo/calc/src/main/java/com/example/calc/CalculatorController.java">
+</file>
+</checkstyle>
